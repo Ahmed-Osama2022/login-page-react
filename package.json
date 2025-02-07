@@ -1,6 +1,7 @@
 {
   "name": "login-pag-react",
   "private": true,
+  "homepage": "http://localhost/login-page",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

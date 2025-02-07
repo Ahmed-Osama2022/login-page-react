@@ -57,6 +57,10 @@ const LoginPage = () => {
       // Save the Token
       // console.log(data.token);
       saveLogin(data.token);
+      // Perform a fake redirect
+      setTimeout(() => {
+        window.location = 'http://localhost';
+      }, 2000);
 
       //
     } catch (err) {
@@ -143,10 +147,10 @@ const LoginPage = () => {
                 Submit
               </button>
 
-              <button type="button" className="btn btn-outline-dark w-100 mt-2">
+              <a id="google_btn" href="#" type="button" className="btn btn-outline-dark w-100 mt-2">
                 <img src={googleVector} className="google-vector" alt="google-image" />
                 <span className="ms-2">Sign in with Google</span>
-              </button>
+              </a>
             </form>
           </div>
 
