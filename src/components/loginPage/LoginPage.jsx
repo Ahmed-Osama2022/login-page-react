@@ -147,7 +147,7 @@ const LoginPage = () => {
                 Submit
               </button>
 
-              <a id="google_btn" href="#" type="button" className="btn btn-outline-dark w-100 mt-2">
+              <a id="google_btn" href="https://accounts.google.com/" type="button" className="btn btn-outline-dark w-100 mt-2">
                 <img src={googleVector} className="google-vector" alt="google-image" />
                 <span className="ms-2">Sign in with Google</span>
               </a>
