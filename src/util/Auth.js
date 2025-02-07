@@ -5,5 +5,6 @@
 export function saveLogin(token) {
   localStorage.setItem('usrToken', token);
 
-  console.log('================ FROM AUTH FILE =============\n' + localStorage.getItem('usrToken'));
+  //   Only for test
+  //   console.log('================ FROM AUTH FILE =============\n' + localStorage.getItem('usrToken'));
 }
